@@ -2,6 +2,10 @@
 
 This Flask web application allows users to convert text from PDF files into speech. It utilizes the `Flask` framework for web development and `PyPDF2` for extracting text from PDF files. The speech synthesis is handled by the `gTTS` (Google Text-to-Speech) library.
 
+![img1](https://github.com/Hemantraj19/PDF-To-AudioBook/blob/main/img1.png)
+![img2](https://github.com/Hemantraj19/PDF-To-AudioBook/blob/main/img2.png)
+![img3](https://github.com/Hemantraj19/PDF-To-AudioBook/blob/main/img3.png)
+
 ## Features
 
 1. **PDF Upload**: Users can upload PDF files through a web interface.
