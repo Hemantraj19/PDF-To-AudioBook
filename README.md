@@ -15,7 +15,7 @@ This Flask web application allows users to convert text from PDF files into spee
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/flask-pdf-to-speech.git
+   git clone https://github.com/Hemantraj19/PDF-To-AudioBook.git
    ```
 
 2. Navigate to the project directory:
