@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>PDF To Audiobook</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+
+	<div class="frame">
+		<div class="center">
+			<div class="title">
+				<h1 id="info-title">Drop or Click file to upload</h1>
+			</div>
+
+			<form method=post action="{{url_for('result')}}" enctype=multipart/form-data>
+				<div class="dropzone">
+					<img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+					<input type="file" class="upload-input" name="pdf_file" />
+				</div>
+				<button type="submit" class="btn" name="uploadbutton">Upload file</button>
+			</form>
+			<div id="loading">
+				<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+					type="module"></script>
+
+				<dotlottie-player src="https://lottie.host/940694a6-8fa2-4923-a81f-5b272cd71d01/Qipm8nYSr3.json"
+					background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+					autoplay></dotlottie-player>
+			</div>
+
+		</div>
+	</div>
+	<script src='https://100dayscss.com/codepen/js/jquery.min.js'></script>
+	<script src="../static/js/script.js"></script>
+
+</body>
+
+</html>

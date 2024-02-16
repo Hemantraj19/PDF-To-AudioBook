@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PDF To Audiobook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="frame">
+        <div class="center">
+            <audio controls style="margin-left: 8px; margin-right: 8px;">
+                <source src="{{ url_for('static', filename='audio/' + filepath) }}" type="audio/mpeg">
+            </audio>
+
+        </div>
+    </div>
+    <script src='https://100dayscss.com/codepen/js/jquery.min.js'></script>
+    <script src="../static/js/script.js"></script>
+
+</body>
+
+</html>
